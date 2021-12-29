@@ -225,3 +225,41 @@ button {
     background: #f97c69;
     border-color: #f97c69;
 }
+
+/* STATS */
+.stats {
+    padding: 5em 0;
+}
+.stats h4 {
+    font-size: 40px;
+    width: 65%;
+    text-align: center;
+    line-height: 1.2em;
+    margin: 0 auto;
+    color: #2c363e;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+}
+.stats .stap {
+    font-size: 15px;
+    color: #777;
+    margin: 1em 0 5em;
+    text-align: center;
+}
+.stats .stats__item p:first-child {
+    font-size: 3.5em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #f97c69;
+    margin: 0 0 0.2em 0;
+}
+.stats .stats__item h3 {
+    font-size: 20px;
+    color: #2c363e;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.stats .stats__item h6 {
+    font-size: 15px;
+    margin-top: 0.8em;
+    color: #777;
+}
