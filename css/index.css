@@ -5,5 +5,83 @@
 }
 html,
 body {
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    letter-spacing: 1px;
     font-family: "Lato", sans-serif;
+}
+
+/* HEADER */
+.header__top {
+    padding: 10px 0;
+    background: #363d41;
+}
+.header__icons a {
+    margin-right: 15px;
+}
+.header__icons i {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 29px;
+    width: 30px;
+    height: 30px;
+}
+.header__icons a:first-child i:hover {
+    color: #527dbd;
+}
+.header__icons a:nth-child(2) i:hover {
+    color: #1da1f2;
+}
+.header__icons a:nth-child(3) i:hover {
+    color: #dd4b39;
+}
+.header__icons a:nth-child(4) i:hover {
+    color: #0077b5;
+}
+.header__contact {
+    margin-left: auto;
+}
+.header__contact a {
+    text-decoration: none;
+}
+
+.header__bottom {
+    padding: 16px 0;
+}
+.navbarMerged .navbar-brand {
+    padding-top: 0px;
+    font-size: 40px;
+    color: #7f67f8 !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-bottom: 0;
+    margin-right: 0;
+}
+.navbarMerged .navbar-brand span {
+    color: #868c94 !important;
+    font-size: 30px;
+    font-weight: 500;
+}
+#navbarMergedContent .navbar-nav .nav-item {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+#navbarMergedContent .navbar-nav .nav-item .nav-link {
+    color: #363d41;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0px 15px;
+    padding: 0px 0px;
+    transition: 0.5s all;
+}
+#navbarMergedContent .navbar-nav .nav-item:hover .nav-link {
+    color: #7f67f8;
+}
+#navbarMergedContent .navbar-nav .nav-item.active .nav-link {
+    color: #7f67f8;
 }
