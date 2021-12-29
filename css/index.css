@@ -11,6 +11,10 @@ body {
     letter-spacing: 1px;
     font-family: "Lato", sans-serif;
 }
+button {
+    padding: 8px 30px;
+    transition: 0.5s;
+}
 
 /* HEADER */
 .header__top {
@@ -84,4 +88,77 @@ body {
 }
 #navbarMergedContent .navbar-nav .nav-item.active .nav-link {
     color: #7f67f8;
+}
+
+/* CAROUSEL */
+.mergedCarousel {
+    background: url(../img/b1.jpg) no-repeat 0px 0px;
+    text-align: center;
+    background-size: cover;
+    min-height: 700px;
+}
+#carouselMergedCaptions {
+    background: rgba(0, 0, 0, 0.37);
+    background-size: cover;
+    min-height: 700px;
+}
+#carouselMergedCaptions .carousel-inner {
+    height: 100%;
+}
+#carouselMergedCaptions .carousel-item {
+    height: 100%;
+}
+#carouselMergedCaptions .carousel-item .carousel-caption {
+    padding: 14em 0 0;
+    text-align: center;
+    position: unset;
+}
+#carouselMergedCaptions .carousel-item .carousel-caption h2 {
+    font-size: 3em;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+}
+
+#carouselMergedCaptions .carousel-item .carousel-caption p {
+    font-size: 15px;
+    color: #fff;
+    line-height: 28px;
+    margin: 20px auto 40px;
+    width: 86%;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.mergedCarousel__buttons .button--transparent {
+    border: 2px solid #fdfdfd;
+    color: white;
+    background: none;
+}
+.mergedCarousel__buttons .button--transparent:hover {
+    border: 2px solid #7f67f8;
+    color: white;
+    background-color: #7f67f8;
+}
+.mergedCarousel__buttons .button--blue {
+    border: 2px solid #7f67f8;
+    color: white;
+    background-color: #7f67f8;
+}
+.mergedCarousel__buttons .button--blue:hover {
+    border: 2px solid #fdfdfd;
+    color: white;
+    background: none;
+}
+#carouselMergedCaptions .carousel-indicators li {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #7f67f8;
+    opacity: 1;
+}
+#carouselMergedCaptions .carousel-indicators li.active {
+    background-color: white;
 }
