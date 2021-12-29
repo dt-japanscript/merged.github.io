@@ -162,3 +162,49 @@ button {
 #carouselMergedCaptions .carousel-indicators li.active {
     background-color: white;
 }
+
+/* INTRO */
+.intro {
+    padding: 5em 0;
+}
+.intro .intro__top {
+    margin-bottom: 5em;
+}
+.intro .intro__top h3 {
+    text-align: center;
+    font-size: 3em;
+    color: #2c363e;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+}
+.intro .intro__top p {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px auto;
+    width: 60%;
+    color: #5e5e5e;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+}
+
+.intro .bord {
+    background: #e8e8e8;
+    height: 1px;
+    width: 75%;
+    margin: 0 auto 3em;
+}
+.intro .intro__item.intro__item2 {
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+}
+.intro .intro__item i {
+    font-size: 40px;
+    color: #f97c69;
+}
+.intro .intro__item h4 {
+    font-size: 22px;
+    color: #151515;
+    letter-spacing: 0.075em;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 20px 0;
+}
