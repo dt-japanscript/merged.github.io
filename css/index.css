@@ -263,3 +263,74 @@ button {
     margin-top: 0.8em;
     color: #777;
 }
+
+/* SERVICES */
+.services {
+    background: url(../img/3.jpg) no-repeat 0px 0px;
+    text-align: center;
+    background-size: cover;
+    padding: 5em 0;
+}
+.services .services__top {
+    color: white;
+    margin-bottom: 5em;
+}
+.services .services__top h3 {
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+}
+.services .services__top p {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px auto;
+    width: 60%;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+}
+.services .services__itemOdd {
+    background: #f97c69;
+}
+.services .services__itemEven {
+    background: white;
+}
+.services .services__itemframe {
+    padding: 2.5em 2.5em;
+}
+.services .services__itemOdd i {
+    color: white;
+    font-size: 3em;
+}
+.services .services__itemEven i {
+    color: #f97c69;
+    font-size: 3em;
+}
+.services .services__itemframe h6 {
+    text-transform: capitalize;
+    font-size: 1.5em;
+    margin: 1em 0;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: black;
+}
+.services .services__itemOdd h6 {
+    color: white;
+}
+.services .services__itemEven h6 {
+    color: black;
+}
+.services .services__itemframe p {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    margin: 0;
+    color: #888;
+    font-weight: 400;
+    line-height: 1.9em;
+}
+.services .services__itemOdd p {
+    color: white;
+}
+.services .services__itemEven p {
+    color: black;
+}
