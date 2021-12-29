@@ -8,3 +8,6 @@ for (var i = 0; i < listNav.length; i++) {
         this.className += " active";
     })
 }
+
+// Counting up Number in Stats section
+$('.counter').countUp();
