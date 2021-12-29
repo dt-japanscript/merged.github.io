@@ -15,6 +15,16 @@ button {
     padding: 8px 30px;
     transition: 0.5s;
 }
+.button--transparent {
+    border: 2px solid #fdfdfd;
+    color: white;
+    background: none;
+}
+.button--blue {
+    border: 2px solid #7f67f8;
+    color: white;
+    background-color: #7f67f8;
+}
 
 /* HEADER */
 .header__top {
@@ -132,17 +142,7 @@ button {
     text-transform: capitalize;
 }
 
-.mergedCarousel__buttons .button--transparent {
-    border: 2px solid #fdfdfd;
-    color: white;
-    background: none;
-}
 .mergedCarousel__buttons .button--transparent:hover {
-    border: 2px solid #7f67f8;
-    color: white;
-    background-color: #7f67f8;
-}
-.mergedCarousel__buttons .button--blue {
     border: 2px solid #7f67f8;
     color: white;
     background-color: #7f67f8;
@@ -207,4 +207,21 @@ button {
     font-weight: 600;
     text-transform: capitalize;
     margin: 20px 0;
+}
+
+/* CONTACT */
+.contact {
+    background: url(../img/3.jpg) no-repeat 0px 0px;
+    text-align: center;
+    background-size: cover;
+    padding: 6em 0;
+}
+.contact h3 {
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+.contact button:hover {
+    background: #f97c69;
+    border-color: #f97c69;
 }
