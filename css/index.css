@@ -164,6 +164,9 @@ button {
     color: white;
     background: none;
 }
+#carouselMergedCaptions .carousel-indicators {
+    bottom: 20%;
+}
 #carouselMergedCaptions .carousel-indicators li {
     width: 14px;
     height: 14px;
