@@ -11,6 +11,10 @@ body {
     letter-spacing: 1px;
     font-family: "Lato", sans-serif;
 }
+body a {
+    text-decoration: none;
+    outline: none;
+}
 h1,
 h2,
 h3,
@@ -404,4 +408,110 @@ button {
 .feedback .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
     opacity: 1;
+}
+
+/* FOOTER */
+.footer__top {
+    background: #0b0c11;
+    padding: 5em 0;
+}
+footer h3 {
+    font-size: 1.7em;
+    color: #f97c69;
+    position: relative;
+    margin-bottom: 1.5em;
+    letter-spacing: 2px;
+}
+footer .footer__subcribe p {
+    font-size: 1em;
+    line-height: 2em;
+    margin-bottom: 2em;
+    letter-spacing: 1px;
+    color: #bfbfbf;
+}
+.footer__subcribe {
+    padding-right: 5em;
+}
+.footer__subcribe form {
+    border: 1px solid #fff;
+    width: 100%;
+}
+.footer__subcribe input {
+    outline: none;
+    padding: 15px 15px;
+    color: #fff;
+    font-size: 14px;
+    width: 88%;
+    border: none;
+    background: rgba(0, 0, 0, 0.22);
+    letter-spacing: 2px;
+}
+.footer__subcribe .btn1 {
+    color: #fff;
+    border: none;
+    padding: 13.5px 0;
+    text-align: center;
+    text-decoration: none;
+    background: #7f67f8;
+    transition: 0.5s all;
+    float: right;
+    width: 12%;
+    cursor: pointer;
+}
+.footer__links {
+    padding: 0 15px;
+}
+.footer__links ul li {
+    list-style: none;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.footer__links ul a {
+    text-decoration: none;
+    color: white;
+}
+.footer__contact {
+    padding: 0 15px;
+}
+.footer__contact ul li {
+    list-style-type: none;
+    color: #bfbfbf;
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin-bottom: 17px;
+}
+.footer__contact ul li p.address {
+    margin-bottom: 0;
+}
+.footer__contact span {
+    margin-right: 13px;
+    color: #f97c69;
+}
+.footer__contact .label {
+    display: block;
+    margin-left: 1.7em;
+    color: #bfbfbf;
+    margin-right: 1em;
+    font-weight: 400 !important;
+}
+.footer__contact ul li a {
+    color: #bfbfbf;
+    text-decoration: none;
+}
+footer .footer__copyright {
+    color: #fff;
+    line-height: 1.8em;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    background: #252525;
+    padding: 16px 0;
+}
+footer .footer__copyright a {
+    color: #fff;
+    text-decoration: underline;
+}
+footer .footer__copyright a:hover {
+    color: #f97c69;
 }
