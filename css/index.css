@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
 html,
 body {
     padding: 0;
@@ -517,6 +521,31 @@ footer .footer__copyright a {
 }
 footer .footer__copyright a:hover {
     color: #f97c69;
+}
+
+/* BACK TO TOP */
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 24px;
+    right: 1%;
+    overflow: hidden;
+    z-index: 9999;
+    width: 64px;
+    height: 64px;
+    border: none;
+    text-indent: 100%;
+    background: url("../img/arrow.png") no-repeat 0px 0px;
+}
+#toTopHover {
+    width: 64px;
+    height: 64px;
+    display: block;
+    overflow: hidden;
+    float: right;
+    opacity: 0;
+    filter: alpha(opacity=0);
 }
 
 /* RESPONSIVE */

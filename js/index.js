@@ -29,3 +29,9 @@ $('.owl-carousel').owlCarousel({
         },
     }
 })
+
+// here stars scrolling icon
+$(document).ready(function () {
+    $().UItoTop({ easingType: 'easeOutQuart' });
+});
+// here ends scrolling icon
